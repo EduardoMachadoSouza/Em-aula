@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+    <title>Programação Mensal</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cine Araújo</h1>
+        <img src="cinearaujo-logo.jpg" alt="cine araújo logo">
+    </header>
+
+    <p>O Cine Araújo agora conta com uma forma inédita para que você possa comprar seus ingressos, a PROGRAMAÇÃO MENSAL. <br> Basta escolher o mês e os filmes disponíveis neste catálogo, comprando o ingresso você pode assistí-lo o dia que quiser!</p>
+    <form>
+        <div id="mes">
+            <label for="dfetsa" id="mes">Mês escolhido</label>
+            <input type="month" id="esc" name="esc">
+        </div>
+    </form>
+    <fieldset>
+            <legend>Filmes em catálogo</legend>
+        
+            <div>
+              <input type="checkbox" id="end1" name="end1">
+              <label for="end1">Batman</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="end2" name="end2">
+                <label for="end2">A Fuga das Galinhas</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="end3" name="end3">
+                <label for="end3">Homem Aranha no Aranhaverso</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="end4" name="end4">
+                <label for="end4">Morbius
+
+            <div>
+                <input type="checkbox" id="end5" name="end5">
+                <label for="end5">Avatar: O Caminho da Água</label>
+            </div>
+        </fieldset>
+
+        <div id="button">
+            <form action="" method="post"   >
+                <input type="button" value="Reservar">
+            </form>
+        </div>
+</body>
+</html>
